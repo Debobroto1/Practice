@@ -20,6 +20,14 @@ public class ConvertingDataType {
 		String userNum="99";
 		int userIntNum=Integer.parseInt(userNum);
 		System.out.println(userIntNum+1);
+		
+		String s,s1,s2;
+		s1="abc";
+		s2="def";
+		s=s1.concat(s2);
+		System.out.println(s);
+		
+		
 	}
 
 }
